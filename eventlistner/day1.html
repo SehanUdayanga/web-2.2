@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		img{
+			width:200px;
+			height:200px;
+		}
+		
+		#div{
+			background-color:blue;
+			width:100%;
+			height:200px;
+		}
+	</style>
+</head>
+<body>
+	
+	<!-- <h2>JavaScript</h2>
+	<h1 id="welcom-message">welcome to javaScript</h1>
+	<p id="demo"></p>
+	<div id="color">
+		hi
+	</div>
+	
+	<div>
+		<input id="username">
+		<button id="btn" onclick="but()">click</button>
+		<span="name">sa</span>
+	</div>
+	
+	<div>
+		<p>
+			<img src="image1.jpg" id="icon1">
+		</p>
+	</div>
+	
+	
+	
+	<input id="fname" placeholder="enter name">
+	<button id="myButton">alert</button>
+	
+	<div id="div">
+	
+	</div >
+	<button id="db">Dubble clock</button> -->
+	
+	
+	
+	<script>
+	
+	
+		function handleKeyDown(event){
+			document.getElementById("output").innerHTML+="key Pressed : "+event.key+'<br>hey code '+event.keycode+'<br>';
+		}
+		
+		function handleKeyUp(event){
+			document.getElementById("output1").innerHTML+="key released : '+event.key+'<br><br>";
+		
+		}
+		
+		
+		
+		/*
+		const mydiv = document.getElementById("div"); 
+		
+		function handlemouse(){
+			mydiv.style.backgroundColor="red";
+		}
+		
+		mydiv.addEventListener("mouseover",handlemouse);
+		
+		function mouseout(){
+			mydiv.style.backgroundColor="blue";
+		}
+		mydiv.addEventListener("mouseout",mouseout);
+		
+		const dbtn = document.getElementById("db");
+		function dubbleclick(){
+			mydiv.style.backgroundColor="yellow";
+			
+		}
+		
+		dbtn.addEventListener("dbclick",dubbleclick);
+	
+	
+	
+		const button = document.getElementById("myButton");
+		
+		
+		function handleclick() {
+		const fname=document.getElementById("fname").value;
+        alert(fname);
+    }
+    
+   
+		button.addEventListener("click", handleclick);
+		
+	
+	
+	
+	
+	
+	
+		document.getElementById("demo").innerHTML="Hellow js,dom example"
+		document.getElementById("welcom-message").textContent="hii"
+		
+		document.getElementById("color").style.display="none"
+		
+		
+		
+		
+		function but(){
+			let  currentname=document.getElementById("username").value;
+			document.getElementById("name").innerHTML=currentname;
+			consol.log(currentname);
+		}
+		
+		
+		var icon =document.getElementById("icon1");
+		
+		icon.src="image2.jpg";
+		*/
+		
+	</script>
+	<div id="output"></div>
+	<div id="output1"></div>
+</body>
+</html>

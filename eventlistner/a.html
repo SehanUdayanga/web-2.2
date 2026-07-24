@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome Message</title>
+</head>
+<body>
+
+
+  <label for="username">Enter Name:</label>
+  <input type="text" id="username">
+  <button id="submitBtn">Submit</button>
+
+ 
+  <p id="errorMsg" style="color: red;"></p>
+  <h2 id="welcomeMsg"></h2>
+
+  <script>
+    const nameInput = document.getElementById('username');
+    const btn = document.getElementById('submitBtn');
+    const errorMsg = document.getElementById('errorMsg');
+    const welcomeMsg = document.getElementById('welcomeMsg');
+
+    btn.addEventListener('click', function() {
+      const name = nameInput.value;
+
+      if (name.length >= 4) {
+        
+		welcomeMsg.textContent = 'Welcome, ' + name + '!';
+        nameInput.style.display = 'none';
+        btn.style.display = 'none';
+        errorMsg.textContent = '';
+      } else {
+        
+		errorMsg.textContent = 'Name must be at least 4 characters!';
+        nameInput.style.borderColor = 'red';
+      }
+    });
+  </script>
+
+</body>
+</html>

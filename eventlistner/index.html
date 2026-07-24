@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Key Event Demo</title>
+	
+	<style>
+		body{
+			
+			align-items:center;
+
+		}
+	</style>
+</head>
+<body>
+
+    <div id="output"></div>
+    <div id="output1"></div>
+	
+	<div >
+		<p>Physical Key: <span id="code">None</span></p>
+		<p>location <span id="location">-</span></p>
+		<p> ctrlKey <span id="ctrlKey">0</span></p>
+	</div>
+	
+	<form onsubmit="return_validationFrom()" onreset="resetform()">
+		<label>Select the country</label>
+		<select id="country" onchange="handkechange()">
+			<option value="usa">usa</option>
+			<option value="canda">canda</option>
+			<option value="uk">uk</option>
+		</select><br>
+		
+		<label for="search">Search</label>
+		<input type="text" id="search" oninput="handleinput()">
+		<div id="message" style="margin-top:10px; font-weight:lighter; border:1px solid #ccc; padding: 5px;">none</div>
+	
+		<label for="name">name</label>
+		<input type="text" id="name" onfocus="handlefocus()" onblur="handleBlur()">
+		<p id="output"></p>
+		<input type="submit" value="Submit">
+		<input type="Reset" value="Reset">
+	</form>
+
+    <script>
+	
+		const input = document.getElementById("search");
+		const message =document.getElementById("message");
+		
+		input.addEventListener('input',(event)=>{
+			message.textContent=`serch for :${event.target.value}`;
+		});
+       /* function handleKeyDown(event) {
+            // Used event.code (modern standard) instead of event.keyCode
+            document.getElementById("output").innerHTML += 
+                `Key Pressed: ${event.key}<br>Key Code: ${event.code}<br>`;
+        }
+
+        function handleKeyUp(event) {
+            // Fixed quote mismatch syntax error
+            document.getElementById("output1").innerHTML += 
+                `Key Released: ${event.key}<br><br>`;
+        }
+
+        // Attach listeners to listen for key presses anywhere on the page
+        document.addEventListener("keydown", handleKeyDown);
+        document.addEventListener("keyup", handleKeyUp);
+		*/
+		
+		window.addEventListener('keydown',(event)=>{
+			const code = document.getElementById("code")
+			code.textContent=event.code
+		});
+		
+		window.addEventListener('keydown',(event)=>{
+			const location = document.getElementById("location")
+			location.textContent=event.location
+		});
+		
+		window.addEventListener('keydown'.(event)=>{
+			const ctrlKey
+		})
+		
+    </script>
+
+</body>
+</html>

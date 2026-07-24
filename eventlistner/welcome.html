@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome</title>
+		<style>
+			.welcome{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				gap:10px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="welcome">
+			<input id="name" required placeholder="Enter the name ">
+			<button id="submit" onclick=>Submit</button>
+			<p id="demo"></p>
+		</div>
+		
+		<div>
+			<label></label>
+		</div>
+		
+		<Script>
+			const name = document.getElementById("name");
+			const button=document.getElementById("submit");
+			button.addEventListner("click",welcome);
+			
+			function welcome(){
+			alert("hi");
+				document.getElementById("demo").textContent=name.value;
+			}
+			
+		</Script>
+		
+		
+	</body>
+</html>
