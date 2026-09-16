@@ -1,0 +1,223 @@
+Microsoft Windows [Version 10.0.22000.2538]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\dcsuser\Documents\004>npm install mongodb
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'mongodb@7.6.0',
+npm WARN EBADENGINE   required: { node: '>=20.19.0' },
+npm WARN EBADENGINE   current: { node: 'v20.9.0', npm: '10.1.0' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'bson@7.3.3',
+npm WARN EBADENGINE   required: { node: '>=20.19.0' },
+npm WARN EBADENGINE   current: { node: 'v20.9.0', npm: '10.1.0' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'mongodb-connection-string-url@7.0.2',
+npm WARN EBADENGINE   required: { node: '>=20.19.0' },
+npm WARN EBADENGINE   current: { node: 'v20.9.0', npm: '10.1.0' }
+npm WARN EBADENGINE }
+npm ERR! process terminated
+npm ERR! signal SIGINT
+
+npm ERR! A complete log of this run can be found in: C:\Users\dcsuser\AppData\Local\npm-cache\_logs\2026-09-16T16_36_24_992Z-debug-0.log 
+Terminate batch job (Y/N)? y
+
+C:\Users\dcsuser\Documents\004>cd myprojrct
+
+C:\Users\dcsuser\Documents\004\myprojrct>npm install mongodb
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'mongodb@7.6.0',
+npm WARN EBADENGINE   required: { node: '>=20.19.0' },
+npm WARN EBADENGINE   current: { node: 'v20.9.0', npm: '10.1.0' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'bson@7.3.3',
+npm WARN EBADENGINE   required: { node: '>=20.19.0' },
+npm WARN EBADENGINE   current: { node: 'v20.9.0', npm: '10.1.0' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'mongodb-connection-string-url@7.0.2',
+npm WARN EBADENGINE   required: { node: '>=20.19.0' },
+npm WARN EBADENGINE   current: { node: 'v20.9.0', npm: '10.1.0' }
+npm WARN EBADENGINE }
+
+added 11 packages, and audited 1319 packages in 21s
+
+273 packages are looking for funding
+  run `npm fund` for details
+
+28 vulnerabilities (9 low, 5 moderate, 14 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+C:\Users\dcsuser\Documents\004\myprojrct>cd ..
+
+C:\Users\dcsuser\Documents\004>npm install mongodb
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'mongodb@7.6.0',
+npm WARN EBADENGINE   required: { node: '>=20.19.0' },
+npm WARN EBADENGINE   current: { node: 'v20.9.0', npm: '10.1.0' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'bson@7.3.3',
+npm WARN EBADENGINE   required: { node: '>=20.19.0' },
+npm WARN EBADENGINE   current: { node: 'v20.9.0', npm: '10.1.0' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'mongodb-connection-string-url@7.0.2',
+npm WARN EBADENGINE   required: { node: '>=20.19.0' },
+npm WARN EBADENGINE   current: { node: 'v20.9.0', npm: '10.1.0' }
+npm WARN EBADENGINE }
+
+added 12 packages in 2s
+
+C:\Users\dcsuser\Documents\004>mkdir db-connection
+
+C:\Users\dcsuser\Documents\004>cd db-connection
+
+C:\Users\dcsuser\Documents\004\db-connection>npm init -y
+Wrote to C:\Users\dcsuser\Documents\004\db-connection\package.json:
+
+{
+  "name": "db-connection",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+
+C:\Users\dcsuser\Documents\004\db-connection>
+cd..
+
+C:\Users\dcsuser\Documents\004>mkdir node-crud-app
+
+C:\Users\dcsuser\Documents\004>cd node_modules
+
+C:\Users\dcsuser\Documents\004\node_modules>mkdir src
+
+C:\Users\dcsuser\Documents\004\node_modules>npm install mongodb
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'bson@7.3.3',
+npm WARN EBADENGINE   required: { node: '>=20.19.0' },
+npm WARN EBADENGINE   current: { node: 'v20.9.0', npm: '10.1.0' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'mongodb-connection-string-url@7.0.2',
+npm WARN EBADENGINE   required: { node: '>=20.19.0' },
+npm WARN EBADENGINE   current: { node: 'v20.9.0', npm: '10.1.0' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'mongodb@7.6.0',
+npm WARN EBADENGINE   required: { node: '>=20.19.0' },
+npm WARN EBADENGINE   current: { node: 'v20.9.0', npm: '10.1.0' }
+npm WARN EBADENGINE }
+
+removed 1 package, and audited 13 packages in 4s
+
+found 0 vulnerabilities
+
+C:\Users\dcsuser\Documents\004\node_modules>npm init -y         
+Wrote to C:\Users\dcsuser\Documents\004\node_modules\package.json:
+
+{
+  "description": ""
+}
+
+
+
+C:\Users\dcsuser\Documents\004\node_modules>cd src
+The system cannot find the path specified.
+
+C:\Users\dcsuser\Documents\004\node_modules>cd ..                  
+
+C:\Users\dcsuser\Documents\004>cd node-crud-app
+
+C:\Users\dcsuser\Documents\004\node-crud-app>npm install mongodb
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'bson@7.3.3',
+npm WARN EBADENGINE   required: { node: '>=20.19.0' },
+npm WARN EBADENGINE   current: { node: 'v20.9.0', npm: '10.1.0' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'mongodb-connection-string-url@7.0.2',
+npm WARN EBADENGINE   required: { node: '>=20.19.0' },
+npm WARN EBADENGINE   current: { node: 'v20.9.0', npm: '10.1.0' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'mongodb@7.6.0',
+npm WARN EBADENGINE   required: { node: '>=20.19.0' },
+npm WARN EBADENGINE   current: { node: 'v20.9.0', npm: '10.1.0' }
+npm WARN EBADENGINE }
+
+removed 1 package, and audited 13 packages in 978ms
+
+found 0 vulnerabilities
+
+C:\Users\dcsuser\Documents\004\node-crud-app>npm init -y
+Wrote to C:\Users\dcsuser\Documents\004\node-crud-app\package.json:
+
+{
+  "name": "crud-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+
+C:\Users\dcsuser\Documents\004\node-crud-app>mkdir src
+
+C:\Users\dcsuser\Documents\004\node-crud-app>cd src
+
+C:\Users\dcsuser\Documents\004\node-crud-app\src>npm install express mongoose
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'mongoose@9.10.1',
+npm WARN EBADENGINE   required: { node: '>=20.19.0' },
+npm WARN EBADENGINE   current: { node: 'v20.9.0', npm: '10.1.0' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'mongodb@7.6.0',
+npm WARN EBADENGINE   required: { node: '>=20.19.0' },
+npm WARN EBADENGINE   current: { node: 'v20.9.0', npm: '10.1.0' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'mquery@6.0.0',
+npm WARN EBADENGINE   required: { node: '>=20.19.0' },
+npm WARN EBADENGINE   current: { node: 'v20.9.0', npm: '10.1.0' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'bson@7.3.3',
+npm WARN EBADENGINE   required: { node: '>=20.19.0' },
+npm WARN EBADENGINE   current: { node: 'v20.9.0', npm: '10.1.0' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'mongodb-connection-string-url@7.0.2',
+npm WARN EBADENGINE   required: { node: '>=20.19.0' },
+npm WARN EBADENGINE   current: { node: 'v20.9.0', npm: '10.1.0' }
+npm WARN EBADENGINE }
+
+added 86 packages, and audited 87 packages in 11s
+
+29 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
